@@ -8,12 +8,12 @@ use ratatui::{
     Frame,
 };
 
-const PHOSPHOR_GREEN: Color = Color::Rgb(0, 255, 65);
-const DARK_GREEN: Color = Color::Rgb(0, 100, 20);
-const WORK_COLOR: Color = Color::Rgb(0, 255, 65);
+const PHOSPHOR_GREEN: Color = Color::Rgb(0, 255, 200);
+const DARK_GREEN: Color = Color::Rgb(0, 50, 40);
+const WORK_COLOR: Color = Color::Rgb(0, 255, 200);
 const SHORT_BREAK_COLOR: Color = Color::Cyan;
 const LONG_BREAK_COLOR: Color = Color::Yellow;
-const DIM_GREEN: Color = Color::Rgb(0, 140, 35);
+const DIM_GREEN: Color = Color::Rgb(0, 128, 100);
 
 fn phase_color(phase: Phase) -> Color {
     match phase {
